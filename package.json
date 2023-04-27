@@ -1,0 +1,30 @@
+{
+  "name": "randomfactgenerator",
+  "version": "1.0.0",
+  "description": "A Random Useless Fact Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss --build -i ./src/tailwind.input.css -o ./pages/tailwind.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/tailwind.input.css -o ./pages/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-devil1134/randomFactGenerator.git"
+  },
+  "keywords": [
+    "random facts",
+    "generator",
+    "static",
+    "tailwindcss"
+  ],
+  "author": "Akash Pattnaik <akashpattnaik.github@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blue-devil1134/randomFactGenerator/issues"
+  },
+  "homepage": "https://github.com/blue-devil1134/randomFactGenerator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
